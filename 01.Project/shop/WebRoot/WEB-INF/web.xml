@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<servlet>
+		<servlet-name>GoodsServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.GoodsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoodsServlet</servlet-name>
+		<url-pattern>/GoodsServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>qt_GoodsServlet</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<servlet-name>GoodsretrieveServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.GoodsRetrieveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoodsretrieveServlet</servlet-name>
+		<url-pattern>/GoodsretrieveServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>GoodsRetrieveServlet</display-name>
+		<servlet-name>GoodsRetrieveServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.GoodsRetrieveServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CategoryServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.CategoryServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AdminsServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.AdminsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>BrandServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.BrandServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>OrderSevlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.OrderSevlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>OrderoutServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.OrderoutServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ordertuihuoServelt</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.ordertuihuoServelt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>orderweifahuoServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.orderweifahuoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UsersServlet</servlet-name>
+		<servlet-class>cn.bdqn.shop.servlet.UsersServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShippingServlet</servlet-name>
+    <servlet-class>cn.bdqn.shop.servlet.ShippingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayMentServlet</servlet-name>
+    <servlet-class>cn.bdqn.shop.servlet.PayMentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>qt_GoodsServlet</servlet-name>
+    <servlet-class>cn.bdqn.shop.servlet.qt_GoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>cn.bdqn.shop.servlet.CartServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>GoodsRetrieveServlet</servlet-name>
+		<url-pattern>/GoodsRetrieveServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>CategoryServlet</servlet-name>
+		<url-pattern>/CategoryServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminsServlet</servlet-name>
+		<url-pattern>/AdminsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BrandServlet</servlet-name>
+		<url-pattern>/BrandServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderSevlet</servlet-name>
+		<url-pattern>/OrderSevlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderoutServlet</servlet-name>
+		<url-pattern>/OrderoutServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ordertuihuoServelt</servlet-name>
+		<url-pattern>/ordertuihuoServelt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>orderweifahuoServlet</servlet-name>
+		<url-pattern>/orderweifahuoServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UsersServlet</servlet-name>
+		<url-pattern>/UsersServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShippingServlet</servlet-name>
+    <url-pattern>/ShippingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayMentServlet</servlet-name>
+    <url-pattern>/PayMentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>qt_GoodsServlet</servlet-name>
+    <url-pattern>/qt_GoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
